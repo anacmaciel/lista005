@@ -10,4 +10,4 @@ public class CriarPessoa {
         System.out.println("O nome do usuário(a) é " + primeiraPessoa.nome + ", ele(a) tem " + primeiraPessoa.idade + " anos, pesa " + primeiraPessoa.peso + " KG e mede " + primeiraPessoa.altura + " CM");
 
 
-}
+    }}
