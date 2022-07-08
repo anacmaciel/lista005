@@ -1,13 +1,17 @@
 package exercicio2;
 
+import java.util.Scanner;
+
 public class CriarPessoa {
     public static void main(String[] args) {
-        Pessoa primeiraPessoa = new Pessoa();
-        primeiraPessoa.nome = "Socorro";
-        primeiraPessoa.altura = 1.50;
-        primeiraPessoa.idade = 60;
-        primeiraPessoa.peso = 50;
-        System.out.println("O nome do usuário(a) é " + primeiraPessoa.nome + ", ele(a) tem " + primeiraPessoa.idade + " anos, pesa " + primeiraPessoa.peso + " KG e mede " + primeiraPessoa.altura + " CM");
+
+        Scanner input = new Scanner(System.in);
+
+        Pessoa fulano = new Pessoa();
+
+        System.out.println("Entre com sua idade atual para saber quanto de altura você cresceu por ano.");
+        fulano.crescer(input.nextDouble());
 
 
-    }}
+    }
+}
