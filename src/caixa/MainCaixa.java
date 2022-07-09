@@ -11,7 +11,7 @@ public class MainCaixa {
         System.out.println("Quantas operações você quer fazer?");
         int lancamentos = input.nextInt();
 
-        for (int i = 0; i <= lancamentos; i++) {
+        for (int i = 1; i <= lancamentos; i++) {
             System.out.println("digite 1 para débito ou 2 para crédito");
             int opcao = input.nextInt();
 
