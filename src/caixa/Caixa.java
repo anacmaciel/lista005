@@ -3,21 +3,21 @@ package caixa;
 public class Caixa {
     double credito;
     double debito;
-    double saldo = 1000;
-    public Caixa() {
+    double saldo;
+    public Caixa(double saldo) {
         this.credito = credito;
         this.debito = debito;
         this.saldo = saldo;
     }
 
     public double selecionaCredito() {
-        credito= saldo+credito;
-        return  credito;
+        saldo= saldo+credito;
+        return  saldo;
     }
 
     public double selecionaDebito(){
-        debito = saldo-debito;
-        return debito;
+        saldo = saldo-debito;
+        return saldo;
     }
 
 }
